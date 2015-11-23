@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		80287F431C03914F008B2F1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80287F421C03914F008B2F1D /* main.cpp */; };
+		80287F4B1C03917F008B2F1D /* ServerSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80287F491C03917F008B2F1D /* ServerSocket.cpp */; };
+		80287F501C039226008B2F1D /* Message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80287F4F1C039226008B2F1D /* Message.cpp */; };
+		80287F521C039232008B2F1D /* Socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80287F511C039232008B2F1D /* Socket.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		80287F3F1C03914E008B2F1D /* Assignment3_new */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment3_new; sourceTree = BUILT_PRODUCTS_DIR; };
 		80287F421C03914F008B2F1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		80287F491C03917F008B2F1D /* ServerSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerSocket.cpp; sourceTree = "<group>"; };
+		80287F4A1C03917F008B2F1D /* ServerSocket.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ServerSocket.hpp; sourceTree = "<group>"; };
+		80287F4C1C039203008B2F1D /* Socket.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Socket.hpp; sourceTree = "<group>"; };
+		80287F4D1C03920A008B2F1D /* SocketException.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = SocketException.hpp; sourceTree = "<group>"; };
+		80287F4E1C03921A008B2F1D /* Message.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Message.hpp; sourceTree = "<group>"; };
+		80287F4F1C039226008B2F1D /* Message.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Message.cpp; sourceTree = "<group>"; };
+		80287F511C039232008B2F1D /* Socket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Socket.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				80287F421C03914F008B2F1D /* main.cpp */,
+				80287F491C03917F008B2F1D /* ServerSocket.cpp */,
+				80287F4A1C03917F008B2F1D /* ServerSocket.hpp */,
+				80287F511C039232008B2F1D /* Socket.cpp */,
+				80287F4C1C039203008B2F1D /* Socket.hpp */,
+				80287F4D1C03920A008B2F1D /* SocketException.hpp */,
+				80287F4E1C03921A008B2F1D /* Message.hpp */,
+				80287F4F1C039226008B2F1D /* Message.cpp */,
 			);
 			path = Assignment3_new;
 			sourceTree = "<group>";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80287F521C039232008B2F1D /* Socket.cpp in Sources */,
 				80287F431C03914F008B2F1D /* main.cpp in Sources */,
+				80287F4B1C03917F008B2F1D /* ServerSocket.cpp in Sources */,
+				80287F501C039226008B2F1D /* Message.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
