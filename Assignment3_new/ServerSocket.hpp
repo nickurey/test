@@ -18,4 +18,5 @@ public:
     
 protected:
     int _connectionLimit = 50;
+    std::string id;
 };

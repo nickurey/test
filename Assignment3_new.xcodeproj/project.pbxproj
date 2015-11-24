@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		012C4F571C04681300F1D181 /* server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012C4F561C04681300F1D181 /* server.cpp */; };
 		80287F431C03914F008B2F1D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80287F421C03914F008B2F1D /* main.cpp */; };
 		80287F4B1C03917F008B2F1D /* ServerSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80287F491C03917F008B2F1D /* ServerSocket.cpp */; };
 		80287F501C039226008B2F1D /* Message.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 80287F4F1C039226008B2F1D /* Message.cpp */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		012C4F561C04681300F1D181 /* server.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = server.cpp; sourceTree = "<group>"; };
 		80287F3F1C03914E008B2F1D /* Assignment3_new */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Assignment3_new; sourceTree = BUILT_PRODUCTS_DIR; };
 		80287F421C03914F008B2F1D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		80287F491C03917F008B2F1D /* ServerSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ServerSocket.cpp; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 				80287F4D1C03920A008B2F1D /* SocketException.hpp */,
 				80287F4E1C03921A008B2F1D /* Message.hpp */,
 				80287F4F1C039226008B2F1D /* Message.cpp */,
+				012C4F561C04681300F1D181 /* server.cpp */,
 			);
 			path = Assignment3_new;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 				80287F521C039232008B2F1D /* Socket.cpp in Sources */,
 				80287F431C03914F008B2F1D /* main.cpp in Sources */,
 				80287F4B1C03917F008B2F1D /* ServerSocket.cpp in Sources */,
+				012C4F571C04681300F1D181 /* server.cpp in Sources */,
 				80287F501C039226008B2F1D /* Message.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +261,7 @@
 				80287F481C03914F008B2F1D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
